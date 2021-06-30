@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3587A6268BFD69002CC6BA /* tonyappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587A5268BFD69002CC6BA /* tonyappApp.swift */; };
+		EA3587A8268BFD69002CC6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587A7268BFD69002CC6BA /* ContentView.swift */; };
+		EA3587AA268BFD6B002CC6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3587A9268BFD6B002CC6BA /* Assets.xcassets */; };
+		EA3587AD268BFD6B002CC6BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3587AC268BFD6B002CC6BA /* Preview Assets.xcassets */; };
+		EA3587B8268BFD6B002CC6BA /* tonyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587B7268BFD6B002CC6BA /* tonyappTests.swift */; };
+		EA3587C3268BFD6B002CC6BA /* tonyappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587C2268BFD6B002CC6BA /* tonyappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3587B4268BFD6B002CC6BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA35879A268BFD69002CC6BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3587A1268BFD69002CC6BA;
+			remoteInfo = tonyapp;
+		};
+		EA3587BF268BFD6B002CC6BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA35879A268BFD69002CC6BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3587A1268BFD69002CC6BA;
+			remoteInfo = tonyapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA3587A2268BFD69002CC6BA /* tonyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3587A5268BFD69002CC6BA /* tonyappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonyappApp.swift; sourceTree = "<group>"; };
+		EA3587A7268BFD69002CC6BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA3587A9268BFD6B002CC6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3587AC268BFD6B002CC6BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA3587AE268BFD6B002CC6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3587B3268BFD6B002CC6BA /* tonyappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonyappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3587B7268BFD6B002CC6BA /* tonyappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonyappTests.swift; sourceTree = "<group>"; };
+		EA3587B9268BFD6B002CC6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3587BE268BFD6B002CC6BA /* tonyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3587C2268BFD6B002CC6BA /* tonyappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonyappUITests.swift; sourceTree = "<group>"; };
+		EA3587C4268BFD6B002CC6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA35879F268BFD69002CC6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587B0268BFD6B002CC6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587BB268BFD6B002CC6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA358799268BFD69002CC6BA = {
+			isa = PBXGroup;
+			children = (
+				EA3587A4268BFD69002CC6BA /* tonyapp */,
+				EA3587B6268BFD6B002CC6BA /* tonyappTests */,
+				EA3587C1268BFD6B002CC6BA /* tonyappUITests */,
+				EA3587A3268BFD69002CC6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3587A3268BFD69002CC6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3587A2268BFD69002CC6BA /* tonyapp.app */,
+				EA3587B3268BFD6B002CC6BA /* tonyappTests.xctest */,
+				EA3587BE268BFD6B002CC6BA /* tonyappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3587A4268BFD69002CC6BA /* tonyapp */ = {
+			isa = PBXGroup;
+			children = (
+				EA3587A5268BFD69002CC6BA /* tonyappApp.swift */,
+				EA3587A7268BFD69002CC6BA /* ContentView.swift */,
+				EA3587A9268BFD6B002CC6BA /* Assets.xcassets */,
+				EA3587AE268BFD6B002CC6BA /* Info.plist */,
+				EA3587AB268BFD6B002CC6BA /* Preview Content */,
+			);
+			path = tonyapp;
+			sourceTree = "<group>";
+		};
+		EA3587AB268BFD6B002CC6BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA3587AC268BFD6B002CC6BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA3587B6268BFD6B002CC6BA /* tonyappTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3587B7268BFD6B002CC6BA /* tonyappTests.swift */,
+				EA3587B9268BFD6B002CC6BA /* Info.plist */,
+			);
+			path = tonyappTests;
+			sourceTree = "<group>";
+		};
+		EA3587C1268BFD6B002CC6BA /* tonyappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3587C2268BFD6B002CC6BA /* tonyappUITests.swift */,
+				EA3587C4268BFD6B002CC6BA /* Info.plist */,
+			);
+			path = tonyappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3587A1268BFD69002CC6BA /* tonyapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3587C7268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyapp" */;
+			buildPhases = (
+				EA35879E268BFD69002CC6BA /* Sources */,
+				EA35879F268BFD69002CC6BA /* Frameworks */,
+				EA3587A0268BFD69002CC6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tonyapp;
+			productName = tonyapp;
+			productReference = EA3587A2268BFD69002CC6BA /* tonyapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3587B2268BFD6B002CC6BA /* tonyappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3587CA268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyappTests" */;
+			buildPhases = (
+				EA3587AF268BFD6B002CC6BA /* Sources */,
+				EA3587B0268BFD6B002CC6BA /* Frameworks */,
+				EA3587B1268BFD6B002CC6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3587B5268BFD6B002CC6BA /* PBXTargetDependency */,
+			);
+			name = tonyappTests;
+			productName = tonyappTests;
+			productReference = EA3587B3268BFD6B002CC6BA /* tonyappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA3587BD268BFD6B002CC6BA /* tonyappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3587CD268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyappUITests" */;
+			buildPhases = (
+				EA3587BA268BFD6B002CC6BA /* Sources */,
+				EA3587BB268BFD6B002CC6BA /* Frameworks */,
+				EA3587BC268BFD6B002CC6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3587C0268BFD6B002CC6BA /* PBXTargetDependency */,
+			);
+			name = tonyappUITests;
+			productName = tonyappUITests;
+			productReference = EA3587BE268BFD6B002CC6BA /* tonyappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA35879A268BFD69002CC6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EA3587A1268BFD69002CC6BA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EA3587B2268BFD6B002CC6BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA3587A1268BFD69002CC6BA;
+					};
+					EA3587BD268BFD6B002CC6BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA3587A1268BFD69002CC6BA;
+					};
+				};
+			};
+			buildConfigurationList = EA35879D268BFD69002CC6BA /* Build configuration list for PBXProject "tonyapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA358799268BFD69002CC6BA;
+			productRefGroup = EA3587A3268BFD69002CC6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3587A1268BFD69002CC6BA /* tonyapp */,
+				EA3587B2268BFD6B002CC6BA /* tonyappTests */,
+				EA3587BD268BFD6B002CC6BA /* tonyappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3587A0268BFD69002CC6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3587AD268BFD6B002CC6BA /* Preview Assets.xcassets in Resources */,
+				EA3587AA268BFD6B002CC6BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587B1268BFD6B002CC6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587BC268BFD6B002CC6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA35879E268BFD69002CC6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3587A8268BFD69002CC6BA /* ContentView.swift in Sources */,
+				EA3587A6268BFD69002CC6BA /* tonyappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587AF268BFD6B002CC6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3587B8268BFD6B002CC6BA /* tonyappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3587BA268BFD6B002CC6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3587C3268BFD6B002CC6BA /* tonyappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3587B5268BFD6B002CC6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3587A1268BFD69002CC6BA /* tonyapp */;
+			targetProxy = EA3587B4268BFD6B002CC6BA /* PBXContainerItemProxy */;
+		};
+		EA3587C0268BFD6B002CC6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3587A1268BFD69002CC6BA /* tonyapp */;
+			targetProxy = EA3587BF268BFD6B002CC6BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA3587C5268BFD6B002CC6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3587C6268BFD6B002CC6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3587C8268BFD6B002CC6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tonyapp/Preview Content\"";
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tonyapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3587C9268BFD6B002CC6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tonyapp/Preview Content\"";
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tonyapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA3587CB268BFD6B002CC6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				INFOPLIST_FILE = tonyappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonyapp.app/tonyapp";
+			};
+			name = Debug;
+		};
+		EA3587CC268BFD6B002CC6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				INFOPLIST_FILE = tonyappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonyapp.app/tonyapp";
+			};
+			name = Release;
+		};
+		EA3587CE268BFD6B002CC6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				INFOPLIST_FILE = tonyappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tonyapp;
+			};
+			name = Debug;
+		};
+		EA3587CF268BFD6B002CC6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2QV946SW;
+				INFOPLIST_FILE = tonyappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devturnip.tonyappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tonyapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA35879D268BFD69002CC6BA /* Build configuration list for PBXProject "tonyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3587C5268BFD6B002CC6BA /* Debug */,
+				EA3587C6268BFD6B002CC6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3587C7268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3587C8268BFD6B002CC6BA /* Debug */,
+				EA3587C9268BFD6B002CC6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3587CA268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3587CB268BFD6B002CC6BA /* Debug */,
+				EA3587CC268BFD6B002CC6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3587CD268BFD6B002CC6BA /* Build configuration list for PBXNativeTarget "tonyappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3587CE268BFD6B002CC6BA /* Debug */,
+				EA3587CF268BFD6B002CC6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA35879A268BFD69002CC6BA /* Project object */;
+}
