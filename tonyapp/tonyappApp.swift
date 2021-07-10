@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct tonyappApp: App {
+    let game = EmojitonyappGame()
+    //classes are mutable, let only says the game var wont be changed.
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: game)
         }
     }
 }

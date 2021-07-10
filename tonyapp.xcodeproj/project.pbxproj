@@ -13,6 +13,8 @@
 		EA3587AD268BFD6B002CC6BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3587AC268BFD6B002CC6BA /* Preview Assets.xcassets */; };
 		EA3587B8268BFD6B002CC6BA /* tonyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587B7268BFD6B002CC6BA /* tonyappTests.swift */; };
 		EA3587C3268BFD6B002CC6BA /* tonyappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587C2268BFD6B002CC6BA /* tonyappUITests.swift */; };
+		EA3587D12699AB70002CC6BA /* tonyappGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587D02699AB6F002CC6BA /* tonyappGame.swift */; };
+		EA3587D32699AD0E002CC6BA /* EmojitonyappGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3587D22699AD0E002CC6BA /* EmojitonyappGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		EA3587BE268BFD6B002CC6BA /* tonyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3587C2268BFD6B002CC6BA /* tonyappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonyappUITests.swift; sourceTree = "<group>"; };
 		EA3587C4268BFD6B002CC6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3587D02699AB6F002CC6BA /* tonyappGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonyappGame.swift; sourceTree = "<group>"; };
+		EA3587D22699AD0E002CC6BA /* EmojitonyappGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojitonyappGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				EA3587A5268BFD69002CC6BA /* tonyappApp.swift */,
 				EA3587A7268BFD69002CC6BA /* ContentView.swift */,
+				EA3587D02699AB6F002CC6BA /* tonyappGame.swift */,
+				EA3587D22699AD0E002CC6BA /* EmojitonyappGame.swift */,
 				EA3587A9268BFD6B002CC6BA /* Assets.xcassets */,
 				EA3587AE268BFD6B002CC6BA /* Info.plist */,
 				EA3587AB268BFD6B002CC6BA /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3587D32699AD0E002CC6BA /* EmojitonyappGame.swift in Sources */,
+				EA3587D12699AB70002CC6BA /* tonyappGame.swift in Sources */,
 				EA3587A8268BFD69002CC6BA /* ContentView.swift in Sources */,
 				EA3587A6268BFD69002CC6BA /* tonyappApp.swift in Sources */,
 			);
